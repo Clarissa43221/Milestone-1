@@ -1,0 +1,110 @@
+/* === style.css === */
+
+/* Reset default margins */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #2d8658;       
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a: hover {
+  color: #1f5a3d;
+  text-decoration: underline;
+}
+
+a: visited {
+  color: #1a4731;
+}
+
+
+/* Navigation menu */
+nav {
+  background-color: #79d2a6;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+nav a: hover {
+  background-color: #b3e6cc;
+  border-radius: 5px;
+}
+
+/* Page layout */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #79d2a6;
+}
+
+/* Example of flex layout */
+.section-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section {
+  flex: 1;
+  min-width: 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+ /* Styles the Concepts table */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #2d8658;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #2d8658;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #79d2a6;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 30px;
+}
